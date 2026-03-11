@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,552 +8,558 @@
   <meta name="description" content="수원에서 진해까지 자차 드라이브! 군항제 벚꽃 2박3일 완벽 여행 가이드. 맛집, 스팟, 드라이브 코스, 바가지 주의사항까지." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<!-- Scroll Progress -->
-<div id="scroll-progress"></div>
+  <!-- Scroll Progress -->
+  <div id="scroll-progress"></div>
 
-<!-- NAV -->
-<nav>
-  <a class="nav-logo" href="#hero">
-    <span class="blossom">🌸</span>
-    진해 벚꽃 여행
-  </a>
-  <ul class="nav-links">
-    <li><a href="#drive-map">드라이브</a></li>
-    <li><a href="#itinerary">일정</a></li>
-    <li><a href="#spot-map">스팟 맵</a></li>
-    <li><a href="#restaurants">맛집</a></li>
-    <li><a href="#reststops">휴게소</a></li>
-    <li><a href="#warnings">주의사항</a></li>
-  </ul>
-</nav>
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#hero">
+      <span class="blossom">🌸</span>
+      진해 벚꽃 여행
+    </a>
+    <ul class="nav-links">
+      <li><a href="#drive-map">드라이브</a></li>
+      <li><a href="#itinerary">일정</a></li>
+      <li><a href="#spot-map">스팟 맵</a></li>
+      <li><a href="#restaurants">맛집</a></li>
+      <li><a href="#reststops">휴게소</a></li>
+      <li><a href="#warnings">주의사항</a></li>
+    </ul>
+  </nav>
 
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <div class="hero-badge">🎪 2026 진해 군항제</div>
-    <h1 class="hero-title">
-      <span class="en">Cherry Blossom</span>
-      <span class="kr">진해 벚꽃 완벽 여행 가이드</span>
-    </h1>
-    <p class="hero-subtitle">수원에서 진해까지 자차 드라이브 · 2박 3일<br>군항제 벚꽃의 절정을 함께 즐겨요</p>
-    <a href="#overview" class="hero-cta">여행 시작하기 →</a>
-  </div>
-  <div class="hero-scroll">
-    <span>SCROLL</span>
-    <span>↓</span>
-  </div>
-</section>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🎪 2026 진해 군항제</div>
+      <h1 class="hero-title">
+        <span class="en">Cherry Blossom</span>
+        <span class="kr">진해 벚꽃 완벽 여행 가이드</span>
+      </h1>
+      <p class="hero-subtitle">수원에서 진해까지 자차 드라이브 · 2박 3일<br>군항제 벚꽃의 절정을 함께 즐겨요</p>
+      <a href="#overview" class="hero-cta">여행 시작하기 →</a>
+    </div>
+    <div class="hero-scroll">
+      <span>SCROLL</span>
+      <span>↓</span>
+    </div>
+  </section>
 
-<!-- OVERVIEW -->
-<section id="overview">
-  <div class="container">
-    <div class="overview-grid">
-      <div class="overview-card fade-up">
-        <span class="icon">🗓️</span>
-        <div class="label">여행 기간</div>
-        <div class="value">2박 3일</div>
-        <div class="sub">+ 이동일 포함 총 4일</div>
+  <!-- OVERVIEW -->
+  <section id="overview">
+    <div class="container">
+      <div class="overview-grid">
+        <div class="overview-card fade-up">
+          <span class="icon">🗓️</span>
+          <div class="label">여행 기간</div>
+          <div class="value">2박 3일</div>
+          <div class="sub">+ 이동일 포함 총 4일</div>
+        </div>
+        <div class="overview-card fade-up">
+          <span class="icon">📍</span>
+          <div class="label">편도 거리</div>
+          <div class="value"><span data-target="370" data-suffix="km">0km</span></div>
+          <div class="sub">수원 → 진해</div>
+        </div>
+        <div class="overview-card fade-up">
+          <span class="icon">🚗</span>
+          <div class="label">편도 소요</div>
+          <div class="value">약 4시간</div>
+          <div class="sub">통영대전고속도로 경유</div>
+        </div>
+        <div class="overview-card fade-up">
+          <span class="icon">🌸</span>
+          <div class="label">벚꽃 절정</div>
+          <div class="value">3/28 ~ 4/7</div>
+          <div class="sub">연도·기온에 따라 변동</div>
+        </div>
+        <div class="overview-card fade-up">
+          <span class="icon">💰</span>
+          <div class="label">2인 예산</div>
+          <div class="value">60 ~ 100만원</div>
+          <div class="sub">군항제 성수기 기준</div>
+        </div>
+        <div class="overview-card fade-up">
+          <span class="icon">⚠️</span>
+          <div class="label">숙소 예약</div>
+          <div class="value">3~4주 전</div>
+          <div class="sub">성수기 2~5배 가격 폭등</div>
+        </div>
       </div>
-      <div class="overview-card fade-up">
-        <span class="icon">📍</span>
-        <div class="label">편도 거리</div>
-        <div class="value"><span data-target="370" data-suffix="km">0km</span></div>
-        <div class="sub">수원 → 진해</div>
-      </div>
-      <div class="overview-card fade-up">
-        <span class="icon">🚗</span>
-        <div class="label">편도 소요</div>
-        <div class="value">약 4시간</div>
-        <div class="sub">통영대전고속도로 경유</div>
-      </div>
-      <div class="overview-card fade-up">
-        <span class="icon">🌸</span>
-        <div class="label">벚꽃 절정</div>
-        <div class="value">3/28 ~ 4/7</div>
-        <div class="sub">연도·기온에 따라 변동</div>
-      </div>
-      <div class="overview-card fade-up">
-        <span class="icon">💰</span>
-        <div class="label">2인 예산</div>
-        <div class="value">60 ~ 100만원</div>
-        <div class="sub">군항제 성수기 기준</div>
-      </div>
-      <div class="overview-card fade-up">
-        <span class="icon">⚠️</span>
-        <div class="label">숙소 예약</div>
-        <div class="value">3~4주 전</div>
-        <div class="sub">성수기 2~5배 가격 폭등</div>
+
+      <div class="notice-box fade-up">
+        💡 <strong>추천 출발일</strong>: 금요일 오전 이른 시각 (07시 전) 출발 — 경부선 주말 정체 회피.
+        군항제 날짜는 매년 조정되므로 출발 전 <strong>창원시청 공식 홈페이지</strong> 확인 필수!
       </div>
     </div>
+  </section>
 
-    <div class="notice-box fade-up">
-      💡 <strong>추천 출발일</strong>: 금요일 오전 이른 시각 (07시 전) 출발 — 경부선 주말 정체 회피. 
-      군항제 날짜는 매년 조정되므로 출발 전 <strong>창원시청 공식 홈페이지</strong> 확인 필수!
-    </div>
-  </div>
-</section>
-
-<!-- FESTIVAL -->
-<section id="festival">
-  <div class="container">
-    <p class="section-label">🎪 군항제</p>
-    <h2 class="section-title fade-up">진해 군항제 주요 행사</h2>
-    <p class="section-desc fade-up">매년 4월 1~10일 전후 개최. 연간 100만 명 이상이 찾는 국내 최대 벚꽃 축제입니다.</p>
-    <div class="festival-grid">
-      <div class="festival-card fade-up">
-        <span class="festival-icon">🌸</span>
-        <div class="festival-title">여좌천 야간 조명</div>
-        <div class="festival-desc">해질 후 여좌천·중원로터리에 조명 점등. 낮과 완전히 다른 환상적인 야경. 21~22시까지 운영.</div>
-      </div>
-      <div class="festival-card fade-up">
-        <span class="festival-icon">🎶</span>
-        <div class="festival-title">해군 군악대 퍼레이드</div>
-        <div class="festival-desc">해군 군악대 행진·공연. 중원로터리·북원광장 일대에서 진행. 시간표 현장 확인 추천.</div>
-      </div>
-      <div class="festival-card fade-up">
-        <span class="festival-icon">⚓</span>
-        <div class="festival-title">해군사관학교 개방</div>
-        <div class="festival-desc">군항제 기간에만 개방되는 특별한 기회. 정원 + 벚꽃 + 해군 시설 관람. 09:00~17:00.</div>
-      </div>
-      <div class="festival-card fade-up">
-        <span class="festival-icon">🚢</span>
-        <div class="festival-title">해군 함정 승선 체험</div>
-        <div class="festival-desc">진해항 군항부두에서 해군 함정 탑승 체험. 당해 일정 창원시 공지 확인 필수.</div>
-      </div>
-      <div class="festival-card fade-up">
-        <span class="festival-icon">🛍️</span>
-        <div class="festival-title">플리마켓 & 특산물 장터</div>
-        <div class="festival-desc">북원광장 일대 경남 지역 특산품·먹거리 장터. 사진전·미술 전시도 함께 운영.</div>
-      </div>
-      <div class="festival-card fade-up">
-        <span class="festival-icon">📸</span>
-        <div class="festival-title">포토존 운영</div>
-        <div class="festival-desc">경화역, 여좌천 등 주요 스팟에 군항제 공식 포토존 설치. 기념 스탬프투어도 병행.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- DRIVE MAP -->
-<section id="drive-map">
-  <div class="container">
-    <p class="section-label">🚗 드라이브 경로</p>
-    <h2 class="section-title fade-up">수원 → 창원 드라이브 루트</h2>
-    <p class="section-desc fade-up">경부고속도로 → 통영대전고속도로 경유. 중간 휴게소 2곳을 들르며 여유롭게 이동하세요.</p>
-    <div class="map-wrapper fade-up">
-      <div id="drive-map-canvas" style="width:100%;height:100%;"></div>
-    </div>
-  </div>
-</section>
-
-<!-- ITINERARY -->
-<section id="itinerary">
-  <div class="container">
-    <p class="section-label">📅 여행 일정</p>
-    <h2 class="section-title fade-up">2박 3일 Day-by-Day 플랜</h2>
-    <p class="section-desc fade-up">동선 최적화로 이동 낭비 없이 진해·창원·마산의 핵심을 모두 즐깁니다.</p>
-
-    <div class="day-tabs">
-      <button class="day-tab active" data-target="day1-panel" id="tab-day1">Day 1 🌸</button>
-      <button class="day-tab" data-target="day2-panel" id="tab-day2">Day 2 ⚓</button>
-      <button class="day-tab" data-target="day3-panel" id="tab-day3">Day 3 🚗</button>
-    </div>
-
-    <!-- Day 1 -->
-    <div class="day-panel active" id="day1-panel">
-      <div class="timeline">
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">08:00</div>
-          <div class="timeline-place">🌸 경화역 플랫폼 <span class="star-badge">⭐ 인생샷 성지</span></div>
-          <div class="timeline-desc">폐역 플랫폼 위를 가득 메운 벚꽃 터널. 기찻길과 벚꽃의 조합으로 국내 최고 포토 스팟. 인파가 몰리기 전 오전 8시 방문이 핵심!</div>
-          <span class="timeline-tag tag-spot">🌸 스팟</span><span class="timeline-tag tag-tip">💡 08:00 이른 방문 추천</span>
+  <!-- FESTIVAL -->
+  <section id="festival">
+    <div class="container">
+      <p class="section-label">🎪 군항제</p>
+      <h2 class="section-title fade-up">진해 군항제 주요 행사</h2>
+      <p class="section-desc fade-up">매년 4월 1~10일 전후 개최. 연간 100만 명 이상이 찾는 국내 최대 벚꽃 축제입니다.</p>
+      <div class="festival-grid">
+        <div class="festival-card fade-up">
+          <span class="festival-icon">🌸</span>
+          <div class="festival-title">여좌천 야간 조명</div>
+          <div class="festival-desc">해질 후 여좌천·중원로터리에 조명 점등. 낮과 완전히 다른 환상적인 야경. 21~22시까지 운영.</div>
         </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">09:30</div>
-          <div class="timeline-place">🌉 여좌천 로망스다리</div>
-          <div class="timeline-desc">TV 드라마 촬영지. 개천 양쪽 벚꽃이 아치를 이루며 물에 반영되는 장면이 장관. 벚꽃 물빛 반영 사진 명소.</div>
-          <span class="timeline-tag tag-spot">🌸 스팟</span>
+        <div class="festival-card fade-up">
+          <span class="festival-icon">🎶</span>
+          <div class="festival-title">해군 군악대 퍼레이드</div>
+          <div class="festival-desc">해군 군악대 행진·공연. 중원로터리·북원광장 일대에서 진행. 시간표 현장 확인 추천.</div>
         </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">11:30</div>
-          <div class="timeline-place">🍽️ 점심 — 진해 백반 or 해물뚝배기</div>
-          <div class="timeline-desc">중원로터리 인근 골목 2~3개 안쪽 로컬 식당. 해물뚝배기 약 1만원, 백반 8천~1만원. 12시 전 도착해야 줄 없이 식사 가능.</div>
-          <span class="timeline-tag tag-food">🍽️ 맛집</span><span class="timeline-tag tag-tip">💡 12시 전 입장 추천</span>
+        <div class="festival-card fade-up">
+          <span class="festival-icon">⚓</span>
+          <div class="festival-title">해군사관학교 개방</div>
+          <div class="festival-desc">군항제 기간에만 개방되는 특별한 기회. 정원 + 벚꽃 + 해군 시설 관람. 09:00~17:00.</div>
         </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">13:00</div>
-          <div class="timeline-place">🎪 중원로터리 & 진해루 전망대</div>
-          <div class="timeline-desc">군항제 메인 광장에서 군악대 공연·포토존 관람. 이후 도보 10분 오르막 진해루에서 진해 시내 파노라마 뷰 감상.</div>
-          <span class="timeline-tag tag-spot">🌸 스팟</span>
+        <div class="festival-card fade-up">
+          <span class="festival-icon">🚢</span>
+          <div class="festival-title">해군 함정 승선 체험</div>
+          <div class="festival-desc">진해항 군항부두에서 해군 함정 탑승 체험. 당해 일정 창원시 공지 확인 필수.</div>
         </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">17:00</div>
-          <div class="timeline-place">🏨 숙소 체크인</div>
-          <div class="timeline-desc">창원 or 마산 시내 비즈니스 호텔 추천. 진해보다 가격이 제 숫자. 진해까지 차로 20~25분.</div>
+        <div class="festival-card fade-up">
+          <span class="festival-icon">🛍️</span>
+          <div class="festival-title">플리마켓 & 특산물 장터</div>
+          <div class="festival-desc">북원광장 일대 경남 지역 특산품·먹거리 장터. 사진전·미술 전시도 함께 운영.</div>
         </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">19:00</div>
-          <div class="timeline-place">🍽️ 저녁 — 진해 해산물 or 생선구이</div>
-          <div class="timeline-desc">진해 어시장 주변 생선구이 정식 1.2~1.5만원/인. 신선한 로컬 해산물 식사.</div>
-          <span class="timeline-tag tag-food">🍽️ 맛집</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">20:30</div>
-          <div class="timeline-place">🌙 여좌천 야간 벚꽃 <span class="star-badge">⭐ 야경 명소</span></div>
-          <div class="timeline-desc">조명 점등 후 완전히 다른 분위기. 낮보다 더 황홀한 야간 벚꽃 터널. 군항제 기간 21~22시까지 운영.</div>
-          <span class="timeline-tag tag-spot">🌸 스팟</span>
+        <div class="festival-card fade-up">
+          <span class="festival-icon">📸</span>
+          <div class="festival-title">포토존 운영</div>
+          <div class="festival-desc">경화역, 여좌천 등 주요 스팟에 군항제 공식 포토존 설치. 기념 스탬프투어도 병행.</div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Day 2 -->
-    <div class="day-panel" id="day2-panel">
-      <div class="timeline">
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">09:00</div>
-          <div class="timeline-place">⚓ 해군사관학교 <span class="star-badge">⭐ 군항제 기간만 개방</span></div>
-          <div class="timeline-desc">연간 군항제 기간에만 개방되는 특별한 기회. 내부 정원·벚꽃·해군 시설 관람. 개장 직후 방문해야 인파 피할 수 있음. 개방 여부 사전 확인 필수.</div>
-          <span class="timeline-tag tag-spot">🌸 스팟</span><span class="timeline-tag tag-tip">💡 09:00 개장 직후 방문</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">11:00</div>
-          <div class="timeline-place">🎭 북원광장 군항제 행사</div>
-          <div class="timeline-desc">플리마켓, 경남 특산물 장터, 문화 공연, 사진·미술 전시. 군항제의 생생한 축제 분위기를 만끽.</div>
-          <span class="timeline-tag tag-spot">🎪 축제</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">12:30</div>
-          <div class="timeline-place">🍽️ 점심 — 북원광장 골목 로컬 식당</div>
-          <div class="timeline-desc">광장 장터 포장마차 기피! 골목 안 일반 식당이 훨씬 저렴하고 맛있음. 13:30 이후 식사 시 대기 줄 없음.</div>
-          <span class="timeline-tag tag-food">🍽️ 맛집</span><span class="timeline-tag tag-tip">💡 장터 음식 바가지 주의</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">14:00</div>
-          <div class="timeline-place">⛰️ 장복산 공원</div>
-          <div class="timeline-desc">진해만·마산만 바다 조망 + 벚꽃. 산책로 or 간단 등산. 도심 스팟과 달리 여유롭고 조용한 분위기. 케이블카 이용 가능.</div>
-          <span class="timeline-tag tag-spot">🌿 자연</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">15:30</div>
-          <div class="timeline-place">🚗 안민고개 벚꽃 드라이브 <span class="star-badge">⭐ 드라이브 BEST</span></div>
-          <div class="timeline-desc">진해 → 창원 방향 왕복 벚꽃 터널 드라이브. 국내 손꼽히는 벚꽃 드라이브 코스. 중간 전망 포인트에서 하차 후 감상. 왕복 약 30~40분.</div>
-          <span class="timeline-tag tag-drive">🚗 드라이브</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">19:00</div>
-          <div class="timeline-place">🍽️ 저녁 — 마산 아구찜 <span class="star-badge">⭐ 향토 음식</span></div>
-          <div class="timeline-desc">마산 대표 향토 음식. 얼큰하고 진한 아귀 + 콩나물 + 미나리. 오동동 아구찜 골목 방문. 2~3만원/인.</div>
-          <span class="timeline-tag tag-food">🍽️ 마산 명물</span>
-        </div>
+  <!-- DRIVE MAP -->
+  <section id="drive-map">
+    <div class="container">
+      <p class="section-label">🚗 드라이브 경로</p>
+      <h2 class="section-title fade-up">수원 → 창원 드라이브 루트</h2>
+      <p class="section-desc fade-up">경부고속도로 → 통영대전고속도로 경유. 중간 휴게소 2곳을 들르며 여유롭게 이동하세요.</p>
+      <div class="map-wrapper fade-up">
+        <div id="drive-map-canvas" style="width:100%;height:100%;"></div>
       </div>
     </div>
+  </section>
 
-    <!-- Day 3 -->
-    <div class="day-panel" id="day3-panel">
-      <div class="timeline">
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">07:30</div>
-          <div class="timeline-place">🌅 장복산 일출 (선택)</div>
-          <div class="timeline-desc">이른 아침 조용한 산책. 파스텔 하늘 아래 일출 + 벚꽃 + 바다 조망의 조합. 피크닉을 즐기기에도 완벽한 시간.</div>
-          <span class="timeline-tag tag-spot">🌿 자연</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">09:00</div>
-          <div class="timeline-place">🌿 진해만 생태숲</div>
-          <div class="timeline-desc">관광객이 상대적으로 적은 조용한 벚꽃 숲. 생태 탐방로 산책. 인파 없이 느긋하게 벚꽃을 감상할 수 있는 숨은 명소.</div>
-          <span class="timeline-tag tag-spot">🌸 스팟</span><span class="timeline-tag tag-tip">💡 덜 붐비는 명소</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">10:30</div>
-          <div class="timeline-place">🚗 진해 해안도로 드라이브</div>
-          <div class="timeline-desc">진해 → 마산 방면 해안 드라이브. 바다 + 봄 풍경을 동시에. 한 번쯤 중간에 내려서 바다 뷰를 즐겨보세요.</div>
-          <span class="timeline-tag tag-drive">🚗 드라이브</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">12:00</div>
-          <div class="timeline-place">🍽️ 마산 어시장 회 점심 <span class="star-badge">⭐ 가성비 최고</span></div>
-          <div class="timeline-desc">신선한 횟감 직거래. 어시장 내 포장 후 인근 식당 공간 이용. 3~5만원/인. 마산 왔으면 꼭 들러야 할 가성비 코스.</div>
-          <span class="timeline-tag tag-food">🍽️ 가성비</span>
-        </div>
-        <div class="timeline-item fade-up">
-          <div class="timeline-time">13:30</div>
-          <div class="timeline-place">🏠 창원 출발 → 수원 귀가</div>
-          <div class="timeline-desc">함양휴게소 산나물비빔밥 → 안성휴게소 갈비탕 순서로 쉬어가며 귀가. 수원 도착 약 15:30~16:00 예상.</div>
-          <span class="timeline-tag tag-drive">🚗 귀가</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  <!-- ITINERARY -->
+  <section id="itinerary">
+    <div class="container">
+      <p class="section-label">📅 여행 일정</p>
+      <h2 class="section-title fade-up">2박 3일 Day-by-Day 플랜</h2>
+      <p class="section-desc fade-up">동선 최적화로 이동 낭비 없이 진해·창원·마산의 핵심을 모두 즐깁니다.</p>
 
-<!-- SPOT MAP -->
-<section id="spot-map">
-  <div class="container">
-    <p class="section-label">📍 스팟 지도</p>
-    <h2 class="section-title fade-up">진해 주요 스팟 한눈에 보기</h2>
-    <p class="section-desc fade-up">마커를 클릭하면 각 스팟의 상세 정보를 확인할 수 있습니다.</p>
-    <div class="map-wrapper fade-up">
-      <div id="spot-map-canvas" style="width:100%;height:100%;"></div>
-    </div>
-  </div>
-</section>
+      <div class="day-tabs">
+        <button class="day-tab active" data-target="day1-panel">🌸 1일차</button>
+        <button class="day-tab" data-target="day2-panel">⚓ 2일차</button>
+        <button class="day-tab" data-target="day3-panel">🚗 3일차</button>
+      </div>
 
-<!-- RESTAURANTS -->
-<section id="restaurants">
-  <div class="container">
-    <p class="section-label">🍽️ 맛집</p>
-    <h2 class="section-title fade-up">진해·창원·마산 추천 맛집</h2>
-    <p class="section-desc fade-up">현지인이 찾는 골목 식당과 향토 음식을 중심으로 선별했습니다.</p>
-    <div class="restaurant-grid">
-      <div class="restaurant-card fade-up">
-        <span class="restaurant-emoji">🐟</span>
-        <div class="restaurant-name">진해 해물뚝배기</div>
-        <div class="restaurant-loc">📍 중원로터리 인근 골목</div>
-        <div class="restaurant-desc">현지인 단골 가성비 1위. 진한 육수에 갖은 해물이 담백하게. 광장 뒤편 골목 2~3개 안쪽 식당.</div>
-        <span class="price-badge">약 1만원</span>
-      </div>
-      <div class="restaurant-card fade-up">
-        <span class="restaurant-emoji">🍱</span>
-        <div class="restaurant-name">진해 백반집</div>
-        <div class="restaurant-loc">📍 진해 시내 곳곳</div>
-        <div class="restaurant-desc">8천~1만원으로 든든하게. 제철 반찬으로 구성된 한 끼. 네이버 지도로 사전 검색 후 방문 추천.</div>
-        <span class="price-badge">8천~1만원</span>
-      </div>
-      <div class="restaurant-card fade-up">
-        <span class="restaurant-emoji">🐟</span>
-        <div class="restaurant-name">진해 어시장 생선구이</div>
-        <div class="restaurant-loc">📍 진해 어시장 주변</div>
-        <div class="restaurant-desc">신선한 제철 생선을 구워 내는 정식. 밥·반찬 포함 알찬 한 상. 점심·저녁 모두 OK.</div>
-        <span class="price-badge">1.2~1.5만원</span>
-      </div>
-      <div class="restaurant-card fade-up">
-        <span class="restaurant-emoji">🌶️</span>
-        <div class="restaurant-name">마산 아구찜</div>
-        <div class="restaurant-loc">📍 마산 오동동 골목</div>
-        <div class="restaurant-desc">마산 향토 대표 음식. 아귀 + 콩나물 + 미나리의 얼큰하고 진한 조화. 오동동 아구찜 골목 전문점들.</div>
-        <span class="price-badge">2~3만원/인</span>
-      </div>
-      <div class="restaurant-card fade-up">
-        <span class="restaurant-emoji">🦀</span>
-        <div class="restaurant-name">마산 어시장 회</div>
-        <div class="restaurant-loc">📍 마산 어시장</div>
-        <div class="restaurant-desc">신선한 횟감 직거래 최저가. 시장 내 포장 후 인근 식당 좌석 이용. 귀가 전 마지막 식사로 완벽.</div>
-        <span class="price-badge">3~5만원/인</span>
-      </div>
-      <div class="restaurant-card fade-up">
-        <span class="restaurant-emoji">☕</span>
-        <div class="restaurant-name">여좌천·경화역 카페</div>
-        <div class="restaurant-loc">📍 여좌천·경화역 인근</div>
-        <div class="restaurant-desc">봄 한정 벚꽃 메뉴와 뷰가 일품인 카페들. 군항제 기간에는 줄이 길 수 있으니 오전 이른 시간 이용 추천.</div>
-        <span class="price-badge">6천~1.5만원</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- REST STOPS -->
-<section id="reststops">
-  <div class="container">
-    <p class="section-label">☕ 휴게소</p>
-    <h2 class="section-title fade-up">드라이브 중 들를 휴게소 & 별미</h2>
-    <p class="section-desc fade-up">그 휴게소에서만 맛볼 수 있는 시그니처 메뉴들. 드라이브의 또 다른 즐거움입니다.</p>
-    <div class="stops-scroll">
-      <div class="stop-card fade-up">
-        <span class="stop-dir dir-down">↓ 내려가는 길</span>
-        <div class="stop-name">☕ 망향휴게소</div>
-        <div class="stop-location">경부고속도로 · 천안 직전 · 수원서 약 1시간</div>
-        <div class="stop-menu">망향비빔국수 🍜</div>
-        <div class="stop-desc">1987년 시작, 전국 고속도로 비빔국수 원조. 진한 양념장에 오이채 올린 냉비빔국수. 4~5천원. 다른 휴게소에서 파는 건 전부 모방작.</div>
-      </div>
-      <div class="stop-card fade-up">
-        <span class="stop-dir dir-down">↓ 내려가는 길</span>
-        <div class="stop-name">🏔️ 덕유산휴게소</div>
-        <div class="stop-location">통영대전고속도로 · 무주 인근 · 창원까지 약 1시간</div>
-        <div class="stop-menu">도토리묵밥 + 반딧불소시지 🌿</div>
-        <div class="stop-desc">덕유산·지리산 자락 청정 식재료. 도토리묵밥은 고소하고 담백. 무주 반딧불소시지는 이 휴게소에서만. 경치도 좋아 잠깐 내려 감상 추천.</div>
-      </div>
-      <div class="stop-card fade-up">
-        <span class="stop-dir dir-up">↑ 올라가는 길</span>
-        <div class="stop-name">🌿 함양휴게소</div>
-        <div class="stop-location">통영대전고속도로 · 함양 인근</div>
-        <div class="stop-menu">지리산 산나물비빔밥 🥗</div>
-        <div class="stop-desc">지리산 자락 직거래 산나물로 만든 비빔밥. 수준이 일반 식당급. 함양 흑돼지, 지역 특산 곶감도 판매. 경남 내륙 마지막 쉬어가기 포인트.</div>
-      </div>
-      <div class="stop-card fade-up">
-        <span class="stop-dir dir-up">↑ 올라가는 길</span>
-        <div class="stop-name">🥩 안성휴게소</div>
-        <div class="stop-location">경부고속도로 · 수원서 약 50~60km 전</div>
-        <div class="stop-menu">안성갈비탕 🍲</div>
-        <div class="stop-desc">경부선 대표 명물 휴게소. 안성갈비탕은 여기서 원조 시작. 경부선 최대 규모 중 하나. 귀가 전 마지막 든든한 식사.</div>
-      </div>
-      <div class="stop-card fade-up">
-        <span class="stop-dir dir-down">↓ 내려가는 길 참고</span>
-        <div class="stop-name">🧡 인삼랜드휴게소</div>
-        <div class="stop-location">경부고속도로 · 천안 인근</div>
-        <div class="stop-menu">인삼마즙 · 인삼튀김 · 인삼아이스크림 🌿</div>
-        <div class="stop-desc">천안·금산 인삼 산지 특화. 인삼을 갈아 넣은 마즙 원액 음료부터 인삼튀김, 인삼막걸리까지. 선물용 포장 구매도 가능.</div>
-      </div>
-      <div class="stop-card fade-up">
-        <span class="stop-dir dir-up">↑ 참고용 (서해안)</span>
-        <div class="stop-name">🦪 행담도휴게소</div>
-        <div class="stop-location">서해안고속도로 · 바다 위 섬 휴게소</div>
-        <div class="stop-menu">새조개 샤브샤브 · 바지락칼국수 🌊</div>
-        <div class="stop-desc">서해 바다 위 섬에 지은 독특한 휴게소. 경관 + 해산물 조합 압도적. 서해안 경유 시 강력 추천. 경부선 코스와는 다른 루트.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- WARNINGS -->
-<section id="warnings">
-  <div class="container">
-    <p class="section-label">⚠️ 주의사항</p>
-    <h2 class="section-title fade-up">바가지요금 & 주의사항</h2>
-    <p class="section-desc fade-up">군항제는 100만 명이 몰리는 초대형 축제입니다. 미리 알아두면 피해를 막을 수 있습니다.</p>
-    <div class="accordion">
-      <div class="accordion-item">
-        <div class="accordion-header">
-          <div class="accordion-title">
-            <div class="accordion-icon icon-red">🏨</div>
-            숙소 바가지 & 예약 전략
+      <!-- Day 1 -->
+      <div class="day-panel active" id="day1-panel">
+        <div class="timeline">
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">08:00</div>
+            <div class="timeline-place">🌸 경화역 플랫폼 <span class="star-badge">⭐ 인생샷 성지</span></div>
+            <div class="timeline-desc">폐역 플랫폼 위를 가득 메운 벚꽃 터널. 기찻길과 벚꽃의 조합으로 국내 최고 포토 스팟. 인파가 몰리기 전 오전 8시 방문이 핵심!</div>
+            <span class="timeline-tag tag-spot">🌸 스팟</span><span class="timeline-tag tag-tip">💡 08:00 이른 방문 추천</span>
           </div>
-          <div class="accordion-chevron">▼</div>
-        </div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner">
-            <ul class="warning-list">
-              <li>군항제 기간 진해 시내 모텔 요금은 <strong>평소의 2~5배</strong> (5만원 → 15~25만원). 창원·마산 호텔이 훨씬 합리적.</li>
-              <li>예약 후 더 비싼 손님 받으려 <strong>일방 취소</strong>하는 업체 다수. 예약 확인서 캡처, 취소 정책 반드시 확인.</li>
-              <li>군항제 기간 "환불 불가" 조항 유의. 야놀자·여기어때·네이버 호텔 <strong>3사 비교 후 예약</strong>.</li>
-              <li>최소 <strong>3~4주 전 예약</strong> 필수. 늦을수록 선택지 없음.</li>
-            </ul>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">09:30</div>
+            <div class="timeline-place">🌉 여좌천 로망스다리</div>
+            <div class="timeline-desc">TV 드라마 촬영지. 개천 양쪽 벚꽃이 아치를 이루며 물에 반영되는 장면이 장관. 벚꽃 물빛 반영 사진 명소.</div>
+            <span class="timeline-tag tag-spot">🌸 스팟</span>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">11:30</div>
+            <div class="timeline-place">🍽️ 점심 — 진해 백반 or 해물뚝배기</div>
+            <div class="timeline-desc">중원로터리 인근 골목 2~3개 안쪽 로컬 식당. 해물뚝배기 약 1만원, 백반 8천~1만원. 12시 전 도착해야 줄 없이 식사 가능.</div>
+            <span class="timeline-tag tag-food">🍽️ 맛집</span><span class="timeline-tag tag-tip">💡 12시 전 입장 추천</span>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">13:00</div>
+            <div class="timeline-place">🎪 중원로터리 & 진해루 전망대</div>
+            <div class="timeline-desc">군항제 메인 광장에서 군악대 공연·포토존 관람. 이후 도보 10분 오르막 진해루에서 진해 시내 파노라마 뷰 감상.</div>
+            <span class="timeline-tag tag-spot">🌸 스팟</span>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">17:00</div>
+            <div class="timeline-place">🏨 숙소 체크인</div>
+            <div class="timeline-desc">창원 or 마산 시내 비즈니스 호텔 추천. 진해보다 가격이 제 숫자. 진해까지 차로 20~25분.</div>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">19:00</div>
+            <div class="timeline-place">🍽️ 저녁 — 진해 해산물 or 생선구이</div>
+            <div class="timeline-desc">진해 어시장 주변 생선구이 정식 1.2~1.5만원/인. 신선한 로컬 해산물 식사.</div>
+            <span class="timeline-tag tag-food">🍽️ 맛집</span>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">20:30</div>
+            <div class="timeline-place">🌙 여좌천 야간 벚꽃 <span class="star-badge">⭐ 야경 명소</span></div>
+            <div class="timeline-desc">조명 점등 후 완전히 다른 분위기. 낮보다 더 황홀한 야간 벚꽃 터널. 군항제 기간 21~22시까지 운영.</div>
+            <span class="timeline-tag tag-spot">🌸 스팟</span>
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <div class="accordion-header">
-          <div class="accordion-title">
-            <div class="accordion-icon icon-yellow">🍽️</div>
-            식당·먹거리 바가지 피하는 법
+
+      <!-- Day 2 -->
+      <div class="day-panel" id="day2-panel">
+        <div class="timeline">
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">09:00</div>
+            <div class="timeline-place">⚓ 해군사관학교 <span class="star-badge">⭐ 군항제 기간만 개방</span></div>
+            <div class="timeline-desc">연간 군항제 기간에만 개방되는 특별한 기회. 내부 정원·벚꽃·해군 시설 관람. 개장 직후 방문해야 인파 피할 수 있음. 개방 여부 사전 확인
+              필수.</div>
+            <span class="timeline-tag tag-spot">🌸 스팟</span><span class="timeline-tag tag-tip">💡 09:00 개장 직후 방문</span>
           </div>
-          <div class="accordion-chevron">▼</div>
-        </div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner">
-            <ul class="warning-list">
-              <li>중원로터리·북원광장 포장마차 음식 <strong>평소 2배+</strong> (어묵꼬치 2천→5천, 닭꼬치 1만→1.5만원). 최대한 기피.</li>
-              <li>메뉴판·가격표 없는 식당에서는 앉기 전 가격 먼저 확인. 해산물 "시가" 표기 식당 주의.</li>
-              <li><strong>광장에서 골목 2~3개 안쪽 식당</strong>이 훨씬 저렴하고 맛있음. 네이버지도 리뷰 확인 후 방문.</li>
-              <li>점심: 12시 전, 저녁: 18시 전 입장하면 대기 줄 없이 식사 가능.</li>
-            </ul>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">11:00</div>
+            <div class="timeline-place">🎭 북원광장 군항제 행사</div>
+            <div class="timeline-desc">플리마켓, 경남 특산물 장터, 문화 공연, 사진·미술 전시. 군항제의 생생한 축제 분위기를 만끽.</div>
+            <span class="timeline-tag tag-spot">🎪 축제</span>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">12:30</div>
+            <div class="timeline-place">🍽️ 점심 — 북원광장 골목 로컬 식당</div>
+            <div class="timeline-desc">광장 장터 포장마차 기피! 골목 안 일반 식당이 훨씬 저렴하고 맛있음. 13:30 이후 식사 시 대기 줄 없음.</div>
+            <span class="timeline-tag tag-food">🍽️ 맛집</span><span class="timeline-tag tag-tip">💡 장터 음식 바가지 주의</span>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">14:00</div>
+            <div class="timeline-place">⛰️ 장복산 공원</div>
+            <div class="timeline-desc">진해만·마산만 바다 조망 + 벚꽃. 산책로 or 간단 등산. 도심 스팟과 달리 여유롭고 조용한 분위기. 케이블카 이용 가능.</div>
+            <span class="timeline-tag tag-spot">🌿 자연</span>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">15:30</div>
+            <div class="timeline-place">🚗 안민고개 벚꽃 드라이브 <span class="star-badge">⭐ 드라이브 BEST</span></div>
+            <div class="timeline-desc">진해 → 창원 방향 왕복 벚꽃 터널 드라이브. 국내 손꼽히는 벚꽃 드라이브 코스. 중간 전망 포인트에서 하차 후 감상. 왕복 약 30~40분.
+            </div>
+            <span class="timeline-tag tag-drive">🚗 드라이브</span>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">19:00</div>
+            <div class="timeline-place">🍽️ 저녁 — 마산 아구찜 <span class="star-badge">⭐ 향토 음식</span></div>
+            <div class="timeline-desc">마산 대표 향토 음식. 얼큰하고 진한 아귀 + 콩나물 + 미나리. 오동동 아구찜 골목 방문. 2~3만원/인.</div>
+            <span class="timeline-tag tag-food">🍽️ 마산 명물</span>
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <div class="accordion-header">
-          <div class="accordion-title">
-            <div class="accordion-icon icon-blue">🚗</div>
-            주차·교통 꿀팁
+
+      <!-- Day 3 -->
+      <div class="day-panel" id="day3-panel">
+        <div class="timeline">
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">07:30</div>
+            <div class="timeline-place">🌅 장복산 일출 (선택)</div>
+            <div class="timeline-desc">이른 아침 조용한 산책. 파스텔 하늘 아래 일출 + 벚꽃 + 바다 조망의 조합. 피크닉을 즐기기에도 완벽한 시간.</div>
+            <span class="timeline-tag tag-spot">🌿 자연</span>
           </div>
-          <div class="accordion-chevron">▼</div>
-        </div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner">
-            <ul class="warning-list">
-              <li>군항제 기간 진해 시내 주차는 사실상 불가. <strong>외곽 공영주차장 + 셔틀버스</strong>가 최선.</li>
-              <li>사유지 유료주차 호객 행위 빈번. 공식 창원시 지정 주차장만 이용. 현장 안내요원 확인.</li>
-              <li>창원시에서 군항제 기간 <strong>임시 셔틀버스 운행</strong>. 창원시청 홈페이지에서 노선·시간 확인.</li>
-              <li>택시 미터기 없이 흥정 요금 요구 시 <strong>탑승 거부</strong>. 카카오택시 이용 추천.</li>
-            </ul>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">09:00</div>
+            <div class="timeline-place">🌿 진해만 생태숲</div>
+            <div class="timeline-desc">관광객이 상대적으로 적은 조용한 벚꽃 숲. 생태 탐방로 산책. 인파 없이 느긋하게 벚꽃을 감상할 수 있는 숨은 명소.</div>
+            <span class="timeline-tag tag-spot">🌸 스팟</span><span class="timeline-tag tag-tip">💡 덜 붐비는 명소</span>
           </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <div class="accordion-header">
-          <div class="accordion-title">
-            <div class="accordion-icon icon-green">💡</div>
-            혼잡 피하는 황금 타이밍
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">10:30</div>
+            <div class="timeline-place">🚗 진해 해안도로 드라이브</div>
+            <div class="timeline-desc">진해 → 마산 방면 해안 드라이브. 바다 + 봄 풍경을 동시에. 한 번쯤 중간에 내려서 바다 뷰를 즐겨보세요.</div>
+            <span class="timeline-tag tag-drive">🚗 드라이브</span>
           </div>
-          <div class="accordion-chevron">▼</div>
-        </div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner">
-            <ul class="warning-list">
-              <li>경화역·여좌천: <strong>오전 08:00 이전</strong> 방문이 인파 최소. 10시 이후 극혼잡.</li>
-              <li>군항제 직전 주말(3월 넷째 주말) 방문 시 벚꽃 80~90% 개화 상태 + 숙소·식당 정상가격.</li>
-              <li>소액 현금 5만원 준비. 일부 노점은 현금만 받음. 귀중품 크로스백 앞으로 매기.</li>
-              <li>창원시청 홈페이지(changwon.go.kr)에서 군항제 날짜·셔틀·개방 정보 출발 전 최종 확인.</li>
-            </ul>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">12:00</div>
+            <div class="timeline-place">🍽️ 마산 어시장 회 점심 <span class="star-badge">⭐ 가성비 최고</span></div>
+            <div class="timeline-desc">신선한 횟감 직거래. 어시장 내 포장 후 인근 식당 공간 이용. 3~5만원/인. 마산 왔으면 꼭 들러야 할 가성비 코스.</div>
+            <span class="timeline-tag tag-food">🍽️ 가성비</span>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-time">13:30</div>
+            <div class="timeline-place">🏠 창원 출발 → 수원 귀가</div>
+            <div class="timeline-desc">함양휴게소 산나물비빔밥 → 안성휴게소 갈비탕 순서로 쉬어가며 귀가. 수원 도착 약 15:30~16:00 예상.</div>
+            <span class="timeline-tag tag-drive">🚗 귀가</span>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- BUDGET -->
-<section id="budget">
-  <div class="container">
-    <p class="section-label">💰 예산</p>
-    <h2 class="section-title fade-up">2인 기준 여행 예산</h2>
-    <p class="section-desc fade-up">군항제 성수기와 비성수기의 예산 차이가 크게 납니다. 미리 계획하세요.</p>
-    <div class="budget-grid">
-      <div class="budget-card fade-up">
-        <h3>🌸 군항제 성수기</h3>
-        <div class="budget-season">4월 1~10일 전후 | 숙소·식당 바가지 극성</div>
-        <div class="budget-row"><span class="item">숙박 2박 (창원 호텔)</span><span class="amt">25~50만원</span></div>
-        <div class="budget-row"><span class="item">식비 (3일 + 이동일)</span><span class="amt">20~35만원</span></div>
-        <div class="budget-row"><span class="item">왕복 연료 + 통행료</span><span class="amt">10~14만원</span></div>
-        <div class="budget-row"><span class="item">기타 (입장료·쇼핑)</span><span class="amt">5~10만원</span></div>
-        <div class="budget-total">
-          <span class="label">총 합계</span>
-          <span class="total-amt">60~109만원</span>
-        </div>
+  <!-- SPOT MAP -->
+  <section id="spot-map">
+    <div class="container">
+      <p class="section-label">📍 스팟 지도</p>
+      <h2 class="section-title fade-up">진해 주요 스팟 한눈에 보기</h2>
+      <p class="section-desc fade-up">마커를 클릭하면 각 스팟의 상세 정보를 확인할 수 있습니다.</p>
+      <div class="map-wrapper fade-up">
+        <div id="spot-map-canvas" style="width:100%;height:100%;"></div>
       </div>
-      <div class="budget-card fade-up">
-        <h3>🌿 군항제 직전 추천</h3>
-        <div class="budget-season">3월 넷째 주말 | 벚꽃 80~90% + 정상가격</div>
-        <div class="budget-row"><span class="item">숙박 2박 (진해 모텔)</span><span class="amt">10~15만원</span></div>
-        <div class="budget-row"><span class="item">식비 (3일 + 이동일)</span><span class="amt">15~25만원</span></div>
-        <div class="budget-row"><span class="item">왕복 연료 + 통행료</span><span class="amt">10~14만원</span></div>
-        <div class="budget-row"><span class="item">기타 (입장료·쇼핑)</span><span class="amt">3~7만원</span></div>
-        <div class="budget-total">
-          <span class="label">총 합계</span>
-          <span class="total-amt">38~61만원</span>
+    </div>
+  </section>
+
+  <!-- RESTAURANTS -->
+  <section id="restaurants">
+    <div class="container">
+      <p class="section-label">🍽️ 맛집</p>
+      <h2 class="section-title fade-up">진해·창원·마산 추천 맛집</h2>
+      <p class="section-desc fade-up">현지인이 찾는 골목 식당과 향토 음식을 중심으로 선별했습니다.</p>
+      <div class="restaurant-grid">
+        <div class="restaurant-card fade-up">
+          <span class="restaurant-emoji">🐟</span>
+          <div class="restaurant-name">진해 해물뚝배기</div>
+          <div class="restaurant-loc">📍 중원로터리 인근 골목</div>
+          <div class="restaurant-desc">현지인 단골 가성비 1위. 진한 육수에 갖은 해물이 담백하게. 광장 뒤편 골목 2~3개 안쪽 식당.</div>
+          <span class="price-badge">약 1만원</span>
+        </div>
+        <div class="restaurant-card fade-up">
+          <span class="restaurant-emoji">🍱</span>
+          <div class="restaurant-name">진해 백반집</div>
+          <div class="restaurant-loc">📍 진해 시내 곳곳</div>
+          <div class="restaurant-desc">8천~1만원으로 든든하게. 제철 반찬으로 구성된 한 끼. 네이버 지도로 사전 검색 후 방문 추천.</div>
+          <span class="price-badge">8천~1만원</span>
+        </div>
+        <div class="restaurant-card fade-up">
+          <span class="restaurant-emoji">🐟</span>
+          <div class="restaurant-name">진해 어시장 생선구이</div>
+          <div class="restaurant-loc">📍 진해 어시장 주변</div>
+          <div class="restaurant-desc">신선한 제철 생선을 구워 내는 정식. 밥·반찬 포함 알찬 한 상. 점심·저녁 모두 OK.</div>
+          <span class="price-badge">1.2~1.5만원</span>
+        </div>
+        <div class="restaurant-card fade-up">
+          <span class="restaurant-emoji">🌶️</span>
+          <div class="restaurant-name">마산 아구찜</div>
+          <div class="restaurant-loc">📍 마산 오동동 골목</div>
+          <div class="restaurant-desc">마산 향토 대표 음식. 아귀 + 콩나물 + 미나리의 얼큰하고 진한 조화. 오동동 아구찜 골목 전문점들.</div>
+          <span class="price-badge">2~3만원/인</span>
+        </div>
+        <div class="restaurant-card fade-up">
+          <span class="restaurant-emoji">🦀</span>
+          <div class="restaurant-name">마산 어시장 회</div>
+          <div class="restaurant-loc">📍 마산 어시장</div>
+          <div class="restaurant-desc">신선한 횟감 직거래 최저가. 시장 내 포장 후 인근 식당 좌석 이용. 귀가 전 마지막 식사로 완벽.</div>
+          <span class="price-badge">3~5만원/인</span>
+        </div>
+        <div class="restaurant-card fade-up">
+          <span class="restaurant-emoji">☕</span>
+          <div class="restaurant-name">여좌천·경화역 카페</div>
+          <div class="restaurant-loc">📍 여좌천·경화역 인근</div>
+          <div class="restaurant-desc">봄 한정 벚꽃 메뉴와 뷰가 일품인 카페들. 군항제 기간에는 줄이 길 수 있으니 오전 이른 시간 이용 추천.</div>
+          <span class="price-badge">6천~1.5만원</span>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="container">
-    <div class="footer-logo">🌸 <span class="pink">진해 벚꽃</span> 여행 가이드</div>
-    <div class="footer-desc">수원에서 진해까지, 최고의 봄꽃 여행을 안내합니다.</div>
-    <div class="footer-badges">
-      <div class="footer-badge">📅 2026 군항제</div>
-      <div class="footer-badge">🗺️ Google Maps 연동</div>
-      <div class="footer-badge">🚗 자차 드라이브</div>
-      <div class="footer-badge">💰 예산 가이드</div>
+  <!-- REST STOPS -->
+  <section id="reststops">
+    <div class="container">
+      <p class="section-label">☕ 휴게소</p>
+      <h2 class="section-title fade-up">드라이브 중 들를 휴게소 & 별미</h2>
+      <p class="section-desc fade-up">그 휴게소에서만 맛볼 수 있는 시그니처 메뉴들. 드라이브의 또 다른 즐거움입니다.</p>
+      <div class="stops-scroll">
+        <div class="stop-card fade-up">
+          <span class="stop-dir dir-down">↓ 내려가는 길</span>
+          <div class="stop-name">☕ 망향휴게소</div>
+          <div class="stop-location">경부고속도로 · 천안 직전 · 수원서 약 1시간</div>
+          <div class="stop-menu">망향비빔국수 🍜</div>
+          <div class="stop-desc">1987년 시작, 전국 고속도로 비빔국수 원조. 진한 양념장에 오이채 올린 냉비빔국수. 4~5천원. 다른 휴게소에서 파는 건 전부 모방작.</div>
+        </div>
+        <div class="stop-card fade-up">
+          <span class="stop-dir dir-down">↓ 내려가는 길</span>
+          <div class="stop-name">🏔️ 덕유산휴게소</div>
+          <div class="stop-location">통영대전고속도로 · 무주 인근 · 창원까지 약 1시간</div>
+          <div class="stop-menu">도토리묵밥 + 반딧불소시지 🌿</div>
+          <div class="stop-desc">덕유산·지리산 자락 청정 식재료. 도토리묵밥은 고소하고 담백. 무주 반딧불소시지는 이 휴게소에서만. 경치도 좋아 잠깐 내려 감상 추천.</div>
+        </div>
+        <div class="stop-card fade-up">
+          <span class="stop-dir dir-up">↑ 올라가는 길</span>
+          <div class="stop-name">🌿 함양휴게소</div>
+          <div class="stop-location">통영대전고속도로 · 함양 인근</div>
+          <div class="stop-menu">지리산 산나물비빔밥 🥗</div>
+          <div class="stop-desc">지리산 자락 직거래 산나물로 만든 비빔밥. 수준이 일반 식당급. 함양 흑돼지, 지역 특산 곶감도 판매. 경남 내륙 마지막 쉬어가기 포인트.</div>
+        </div>
+        <div class="stop-card fade-up">
+          <span class="stop-dir dir-up">↑ 올라가는 길</span>
+          <div class="stop-name">🥩 안성휴게소</div>
+          <div class="stop-location">경부고속도로 · 수원서 약 50~60km 전</div>
+          <div class="stop-menu">안성갈비탕 🍲</div>
+          <div class="stop-desc">경부선 대표 명물 휴게소. 안성갈비탕은 여기서 원조 시작. 경부선 최대 규모 중 하나. 귀가 전 마지막 든든한 식사.</div>
+        </div>
+        <div class="stop-card fade-up">
+          <span class="stop-dir dir-down">↓ 내려가는 길 참고</span>
+          <div class="stop-name">🧡 인삼랜드휴게소</div>
+          <div class="stop-location">경부고속도로 · 천안 인근</div>
+          <div class="stop-menu">인삼마즙 · 인삼튀김 · 인삼아이스크림 🌿</div>
+          <div class="stop-desc">천안·금산 인삼 산지 특화. 인삼을 갈아 넣은 마즙 원액 음료부터 인삼튀김, 인삼막걸리까지. 선물용 포장 구매도 가능.</div>
+        </div>
+        <div class="stop-card fade-up">
+          <span class="stop-dir dir-up">↑ 참고용 (서해안)</span>
+          <div class="stop-name">🦪 행담도휴게소</div>
+          <div class="stop-location">서해안고속도로 · 바다 위 섬 휴게소</div>
+          <div class="stop-menu">새조개 샤브샤브 · 바지락칼국수 🌊</div>
+          <div class="stop-desc">서해 바다 위 섬에 지은 독특한 휴게소. 경관 + 해산물 조합 압도적. 서해안 경유 시 강력 추천. 경부선 코스와는 다른 루트.</div>
+        </div>
+      </div>
     </div>
-    <div class="footer-copy">© 2026 Cherry Blossom Trip Guide · 창원시청 055-225-2000</div>
-  </div>
-</footer>
+  </section>
 
-<!-- Scripts -->
-<script src="js/app.js"></script>
-<script src="js/map.js"></script>
-<script
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiUWwhKNry_SmyaW4xikE8CeCNqqp3ta0&callback=initMaps&language=ko&region=KR"
-  async defer>
-</script>
+  <!-- WARNINGS -->
+  <section id="warnings">
+    <div class="container">
+      <p class="section-label">⚠️ 주의사항</p>
+      <h2 class="section-title fade-up">바가지요금 & 주의사항</h2>
+      <p class="section-desc fade-up">군항제는 100만 명이 몰리는 초대형 축제입니다. 미리 알아두면 피해를 막을 수 있습니다.</p>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <div class="accordion-title">
+              <div class="accordion-icon icon-red">🏨</div>
+              숙소 바가지 & 예약 전략
+            </div>
+            <div class="accordion-chevron">▼</div>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul class="warning-list">
+                <li>군항제 기간 진해 시내 모텔 요금은 <strong>평소의 2~5배</strong> (5만원 → 15~25만원). 창원·마산 호텔이 훨씬 합리적.</li>
+                <li>예약 후 더 비싼 손님 받으려 <strong>일방 취소</strong>하는 업체 다수. 예약 확인서 캡처, 취소 정책 반드시 확인.</li>
+                <li>군항제 기간 "환불 불가" 조항 유의. 야놀자·여기어때·네이버 호텔 <strong>3사 비교 후 예약</strong>.</li>
+                <li>최소 <strong>3~4주 전 예약</strong> 필수. 늦을수록 선택지 없음.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <div class="accordion-title">
+              <div class="accordion-icon icon-yellow">🍽️</div>
+              식당·먹거리 바가지 피하는 법
+            </div>
+            <div class="accordion-chevron">▼</div>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul class="warning-list">
+                <li>중원로터리·북원광장 포장마차 음식 <strong>평소 2배+</strong> (어묵꼬치 2천→5천, 닭꼬치 1만→1.5만원). 최대한 기피.</li>
+                <li>메뉴판·가격표 없는 식당에서는 앉기 전 가격 먼저 확인. 해산물 "시가" 표기 식당 주의.</li>
+                <li><strong>광장에서 골목 2~3개 안쪽 식당</strong>이 훨씬 저렴하고 맛있음. 네이버지도 리뷰 확인 후 방문.</li>
+                <li>점심: 12시 전, 저녁: 18시 전 입장하면 대기 줄 없이 식사 가능.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <div class="accordion-title">
+              <div class="accordion-icon icon-blue">🚗</div>
+              주차·교통 꿀팁
+            </div>
+            <div class="accordion-chevron">▼</div>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul class="warning-list">
+                <li>군항제 기간 진해 시내 주차는 사실상 불가. <strong>외곽 공영주차장 + 셔틀버스</strong>가 최선.</li>
+                <li>사유지 유료주차 호객 행위 빈번. 공식 창원시 지정 주차장만 이용. 현장 안내요원 확인.</li>
+                <li>창원시에서 군항제 기간 <strong>임시 셔틀버스 운행</strong>. 창원시청 홈페이지에서 노선·시간 확인.</li>
+                <li>택시 미터기 없이 흥정 요금 요구 시 <strong>탑승 거부</strong>. 카카오택시 이용 추천.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <div class="accordion-title">
+              <div class="accordion-icon icon-green">💡</div>
+              혼잡 피하는 황금 타이밍
+            </div>
+            <div class="accordion-chevron">▼</div>
+          </div>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <ul class="warning-list">
+                <li>경화역·여좌천: <strong>오전 08:00 이전</strong> 방문이 인파 최소. 10시 이후 극혼잡.</li>
+                <li>군항제 직전 주말(3월 넷째 주말) 방문 시 벚꽃 80~90% 개화 상태 + 숙소·식당 정상가격.</li>
+                <li>소액 현금 5만원 준비. 일부 노점은 현금만 받음. 귀중품 크로스백 앞으로 매기.</li>
+                <li>창원시청 홈페이지(changwon.go.kr)에서 군항제 날짜·셔틀·개방 정보 출발 전 최종 확인.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUDGET -->
+  <section id="budget">
+    <div class="container">
+      <p class="section-label">💰 예산</p>
+      <h2 class="section-title fade-up">2인 기준 여행 예산</h2>
+      <p class="section-desc fade-up">군항제 성수기와 비성수기의 예산 차이가 크게 납니다. 미리 계획하세요.</p>
+      <div class="budget-grid">
+        <div class="budget-card fade-up">
+          <h3>🌸 군항제 성수기</h3>
+          <div class="budget-season">4월 1~10일 전후 | 숙소·식당 바가지 극성</div>
+          <div class="budget-row"><span class="item">숙박 2박 (창원 호텔)</span><span class="amt">25~50만원</span></div>
+          <div class="budget-row"><span class="item">식비 (3일 + 이동일)</span><span class="amt">20~35만원</span></div>
+          <div class="budget-row"><span class="item">왕복 연료 + 통행료</span><span class="amt">10~14만원</span></div>
+          <div class="budget-row"><span class="item">기타 (입장료·쇼핑)</span><span class="amt">5~10만원</span></div>
+          <div class="budget-total">
+            <span class="label">총 합계</span>
+            <span class="total-amt">60~109만원</span>
+          </div>
+        </div>
+        <div class="budget-card fade-up">
+          <h3>🌿 군항제 직전 추천</h3>
+          <div class="budget-season">3월 넷째 주말 | 벚꽃 80~90% + 정상가격</div>
+          <div class="budget-row"><span class="item">숙박 2박 (진해 모텔)</span><span class="amt">10~15만원</span></div>
+          <div class="budget-row"><span class="item">식비 (3일 + 이동일)</span><span class="amt">15~25만원</span></div>
+          <div class="budget-row"><span class="item">왕복 연료 + 통행료</span><span class="amt">10~14만원</span></div>
+          <div class="budget-row"><span class="item">기타 (입장료·쇼핑)</span><span class="amt">3~7만원</span></div>
+          <div class="budget-total">
+            <span class="label">총 합계</span>
+            <span class="total-amt">38~61만원</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo">🌸 <span class="pink">진해 벚꽃</span> 여행 가이드</div>
+      <div class="footer-desc">수원에서 진해까지, 최고의 봄꽃 여행을 안내합니다.</div>
+      <div class="footer-badges">
+        <div class="footer-badge">📅 2026 군항제</div>
+        <div class="footer-badge">🗺️ Google Maps 연동</div>
+        <div class="footer-badge">🚗 자차 드라이브</div>
+        <div class="footer-badge">💰 예산 가이드</div>
+      </div>
+      <div class="footer-copy">© 2026 Cherry Blossom Trip Guide · 창원시청 055-225-2000</div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+  <script src="js/map.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiUWwhKNry_SmyaW4xikE8CeCNqqp3ta0&callback=initMaps&language=ko&region=KR"
+    async defer>
+    </script>
 </body>
+
 </html>
