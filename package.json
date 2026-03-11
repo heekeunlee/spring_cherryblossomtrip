@@ -1,0 +1,12 @@
+{
+  "name": "spring-cherryblossomtrip",
+  "version": "1.0.0",
+  "description": "진해 벚꽃 여행 가이드 웹앱",
+  "homepage": "https://heekeunlee.github.io/spring_cherryblossomtrip",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
